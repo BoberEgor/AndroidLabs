@@ -50,10 +50,6 @@ class MainActivity : AppCompatActivity() {
                     val thiefName = data?.getStringExtra(THIEF)
                     textview_info.text = thiefName.toString()
                 }
-                // Другие запросы
-                //   REQUEST_MULTIPLE_PERMISSION -> {
-                //       // Do something if success / failed
-                //   }
             }
         } else{
             textview_info.text = "" // стираем текст

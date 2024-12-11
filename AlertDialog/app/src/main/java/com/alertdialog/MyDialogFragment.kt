@@ -20,17 +20,9 @@ class MyDialogFragment: DialogFragment() {
             gravity = Gravity.CENTER
         }
 
-        //AlertDialog расширение класса Dialog
-        //заголовок
-        //текстовое сообщение
-        //кнопки: от одной до трёх
-        //список
-        //флажки
-        //переключатели
         return activity?.let {
             val builder = AlertDialog.Builder(it)
             builder
-                //.setTitle("Важное сообщение!")
                 .setCustomTitle(textView)
                 .setMessage("Покормите кота!")
                 .setIcon(R.drawable.baseline_pets_24)

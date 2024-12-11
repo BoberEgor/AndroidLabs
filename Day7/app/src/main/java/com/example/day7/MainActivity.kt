@@ -64,8 +64,6 @@ class MainActivity : AppCompatActivity() {
             state = !state
 
         }
-        //input.setText(getScreenOrientation() + " " + getRotateOrientation())
-        // добаили в конфигуратор чтоб текст каждый раз изменялся
     }
 
     // отлавливаем поворот экрана

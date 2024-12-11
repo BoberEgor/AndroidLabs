@@ -70,12 +70,6 @@ class MainActivity : AppCompatActivity() {
         }
 
 
-        //показать окно Экран из системного приложения Настройки
-//        val intent = Intent(Settings.ACTION_DISPLAY_SETTINGS)
-//        if (intent.resolveActivity(packageManager) != null) {
-//            startActivity(intent)
-//        }
-
         //в логах размер экрана
         //Ориентацию при помощи нового метода не узнаешь
         val display: Display = windowManager.defaultDisplay

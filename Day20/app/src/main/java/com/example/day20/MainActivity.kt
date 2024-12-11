@@ -94,22 +94,6 @@ class MainActivity : AppCompatActivity() {
         }.create().show()
     }
 
-//    override fun onKeyDown(keyCode: Int, event: KeyEvent?): Boolean {
-//        val rootLayout: ConstraintLayout = findViewById(R.id.root_layout)
-//        when (keyCode) {
-//            KeyEvent.KEYCODE_1 -> {
-//                // Устанавливаем фон в зеленый цвет при нажатии кнопки увеличения громкости
-//                rootLayout.setBackgroundColor(resources.getColor(R.color.greenColor, null))
-//                return true
-//            }
-//            KeyEvent.KEYCODE_2 -> {
-//                // Устанавливаем фон в красный цвет при нажатии кнопки уменьшения громкости
-//                rootLayout.setBackgroundColor(resources.getColor(R.color.greensColor, null))
-//                return true
-//            }
-//        }
-//        return super.onKeyDown(keyCode, event)
-//    }
 
     override fun onKeyDown(keyCode: Int, event: KeyEvent): Boolean {
         when (keyCode) {

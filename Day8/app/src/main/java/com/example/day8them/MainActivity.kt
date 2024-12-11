@@ -19,10 +19,9 @@ import com.google.android.material.textfield.TextInputLayout
 
 class MainActivity : AppCompatActivity() {
 
-    //lab9 константы для продолжительности всплывающего сообщения
     val LONG_DELAY: Int = 3500 // 3.5 seconds
     val SHORT_DELAY: Int = 2000 // 2 seconds
-    //lab9
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
 
@@ -32,11 +31,11 @@ class MainActivity : AppCompatActivity() {
 
         setContentView(R.layout.activity_main)
 
-        //lab9
+
         val buttonShowToast : Button = findViewById(R.id.button_five)
         val imageToast : ImageView = findViewById(R.id.imageView)
         imageToast.setImageResource(R.drawable.cat)
-        //lab9
+
 
         val buttonClick : Button = findViewById(R.id.button_one)
         val buttonClickTwo : Button = findViewById(R.id.button_two)
@@ -81,7 +80,6 @@ class MainActivity : AppCompatActivity() {
 
         }
 
-        //lab9
         buttonShowToast.setOnClickListener {
             val text = "Пора покормить кота!"
             val duration = Toast.LENGTH_SHORT //LENGTH_LONG
@@ -100,7 +98,6 @@ class MainActivity : AppCompatActivity() {
             toastContainer.addView(catImage, 0)
             toast.show()
         }
-        //lab9
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())

@@ -13,7 +13,6 @@ class MainActivity : AppCompatActivity() {
 
     private var counter: Int = 0
     private var counterCat: Int = 0
-    // private Buttom mCrowsCounterButton;
 
     override fun onCreate(savedInstanceState: Bundle?) {
 
@@ -47,17 +46,5 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    // был пример на Java
-    //      android:onClick = "OnClick:
-    //    public void onClick(View view){
-    //        TextView helloTextView = findViewById(R.id.textView);
-    //        helloTextView.setText("Hello Kitty!");
-    //    }
-
-    // переписал на Kotlin
-    // fun OnClick(view: View) {
-    //    val helloTextView: TextView = findViewById(R.id.textView);
-    //    helloTextView.text = ("Hello Kitty!")
-    // }
 
 }

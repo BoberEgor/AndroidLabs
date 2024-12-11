@@ -21,7 +21,6 @@ class MainActivity : AppCompatActivity() {
         val lng = 37.503964
 
         buttonMap.setOnClickListener {
-            //val geoUriString = String.format("geo:%s,%s?z=15", lat.toString(), lng.toString())
             val geoUriString = "geo:0,0?q=москва&z=2"
             val geoUri = Uri.parse(geoUriString)
             val mapIntent = Intent(Intent.ACTION_VIEW, geoUri)

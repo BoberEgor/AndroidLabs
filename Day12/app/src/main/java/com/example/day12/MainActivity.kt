@@ -28,34 +28,6 @@ class MainActivity : AppCompatActivity() {
         val textView = findViewById<TextView>(R.id.textView)
         val imageView = findViewById<ImageView>(R.id.imageView)
 
-//        val popupMenu2 = PopupMenu(this, button)
-//        popupMenu2.inflate(R.menu.popup_menu)
-//        popupMenu2.setOnMenuItemClickListener {
-//            when (it.itemId) {
-//                R.id.red -> {
-//                    textView.background = ColorDrawable(Color.RED)
-//                    textView.text = "Вы выбрали красный цвет"
-//                }
-//                R.id.yellow -> {
-//                    textView.background = ColorDrawable(Color.YELLOW)
-//                    textView.text = "Вы выбрали жёлтый цвет"
-//                }
-//                R.id.green -> {
-//                    textView.background = ColorDrawable(Color.GREEN)
-//                    textView.text = "Вы выбрали зелёный цвет"
-//                }
-//            }
-//            false
-//        }
-//
-//        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
-//            popupMenu2.setForceShowIcon(true)
-//        }
-//
-//        button.setOnClickListener {
-//            popupMenu2.show()
-//        }
-
 
         button.setOnClickListener(viewClickListener)
         textView.setOnClickListener(viewClickListener)

@@ -8,7 +8,6 @@ import androidx.appcompat.app.AppCompatActivity
 class MyPreferenceActivity: PreferenceActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        //addPreferencesFromResource(R.xml.settings)
         fragmentManager.beginTransaction()
             .replace(android.R.id.content, MyPrefsFragment())
             .commit()
